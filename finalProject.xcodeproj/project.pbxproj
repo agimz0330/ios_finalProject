@@ -3,19 +3,64 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B023E7725AEDDAB003319AE /* igTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B023E7625AEDDAB003319AE /* igTest.json */; };
+		55C4352A25BA3F2B003936AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C4352925BA3F2B003936AF /* AppDelegate.swift */; };
+		55C4353125BA8AEA003936AF /* fbLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C4353025BA8AEA003936AF /* fbLoginView.swift */; };
+		55C4353625BA9651003936AF /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 55C4353525BA9651003936AF /* FacebookLogin */; };
+		55F260FD25A9F146006A6E47 /* igView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F260FC25A9F146006A6E47 /* igView.swift */; };
+		55F2610125A9F3EB006A6E47 /* igData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F2610025A9F3EB006A6E47 /* igData.swift */; };
+		55F2610525AA147D006A6E47 /* igPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F2610425AA147D006A6E47 /* igPostView.swift */; };
+		55F2610F25AA1F3D006A6E47 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 55F2610E25AA1F3D006A6E47 /* SDWebImageSwiftUI */; };
+		55F2611225AC86B6006A6E47 /* iconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F2611125AC86B6006A6E47 /* iconView.swift */; };
+		55F2611625AC8A00006A6E47 /* nowTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F2611525AC8A00006A6E47 /* nowTimeView.swift */; };
+		55F2611B25AC8AB0006A6E47 /* HanyiSentyCrayon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55F2611825AC8AB0006A6E47 /* HanyiSentyCrayon.ttf */; };
+		55F2611C25AC8AB0006A6E47 /* HanyiSentyFingerPainting.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55F2611925AC8AB0006A6E47 /* HanyiSentyFingerPainting.ttf */; };
+		55F2611D25AC8AB0006A6E47 /* Wildy-Sans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55F2611A25AC8AB0006A6E47 /* Wildy-Sans.ttf */; };
+		55F2612125AC8BBF006A6E47 /* doListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F2612025AC8BBF006A6E47 /* doListView.swift */; };
+		55F2612425AC8BCA006A6E47 /* doRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F2612325AC8BCA006A6E47 /* doRowView.swift */; };
+		55F2612725AC8BD3006A6E47 /* Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F2612625AC8BD3006A6E47 /* Thing.swift */; };
+		55F2612A25AC8BDD006A6E47 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F2612925AC8BDD006A6E47 /* Activity.swift */; };
+		55F2612D25AC8BF3006A6E47 /* ThingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F2612C25AC8BF3006A6E47 /* ThingData.swift */; };
+		55F2613025AC8C53006A6E47 /* addDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F2612F25AC8C53006A6E47 /* addDataView.swift */; };
+		55F2613725AC94E3006A6E47 /* 淺草籤.json in Resources */ = {isa = PBXBuildFile; fileRef = 55F2613625AC94E3006A6E47 /* 淺草籤.json */; };
+		55F2613A25AC950E006A6E47 /* Luck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F2613925AC950E006A6E47 /* Luck.swift */; };
+		55F2613D25AC95DD006A6E47 /* myLuckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F2613C25AC95DD006A6E47 /* myLuckView.swift */; };
 		57F7905925A47C0D0077BF1F /* finalProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7905825A47C0D0077BF1F /* finalProjectApp.swift */; };
 		57F7905B25A47C0D0077BF1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7905A25A47C0D0077BF1F /* ContentView.swift */; };
 		57F7905D25A47C100077BF1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F7905C25A47C100077BF1F /* Assets.xcassets */; };
 		57F7906025A47C100077BF1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F7905F25A47C100077BF1F /* Preview Assets.xcassets */; };
 		57F7906225A47C100077BF1F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7906125A47C100077BF1F /* Persistence.swift */; };
 		57F7906525A47C100077BF1F /* finalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57F7906325A47C100077BF1F /* finalProject.xcdatamodeld */; };
+		57F7907225A4A7BE0077BF1F /* ImgPickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7907125A4A7BE0077BF1F /* ImgPickView.swift */; };
+		57F7907525A4AA690077BF1F /* uploadImgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7907425A4AA690077BF1F /* uploadImgView.swift */; };
+		57F7907A25A4AF170077BF1F /* igResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7907925A4AF170077BF1F /* igResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B023E7625AEDDAB003319AE /* igTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = igTest.json; sourceTree = SOURCE_ROOT; };
+		55C4352925BA3F2B003936AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55C4353025BA8AEA003936AF /* fbLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fbLoginView.swift; sourceTree = "<group>"; };
+		55F260FC25A9F146006A6E47 /* igView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = igView.swift; sourceTree = "<group>"; };
+		55F2610025A9F3EB006A6E47 /* igData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = igData.swift; sourceTree = "<group>"; };
+		55F2610425AA147D006A6E47 /* igPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = igPostView.swift; sourceTree = "<group>"; };
+		55F2611125AC86B6006A6E47 /* iconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iconView.swift; sourceTree = "<group>"; };
+		55F2611525AC8A00006A6E47 /* nowTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nowTimeView.swift; sourceTree = "<group>"; };
+		55F2611825AC8AB0006A6E47 /* HanyiSentyCrayon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HanyiSentyCrayon.ttf; sourceTree = "<group>"; };
+		55F2611925AC8AB0006A6E47 /* HanyiSentyFingerPainting.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HanyiSentyFingerPainting.ttf; sourceTree = "<group>"; };
+		55F2611A25AC8AB0006A6E47 /* Wildy-Sans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wildy-Sans.ttf"; sourceTree = "<group>"; };
+		55F2612025AC8BBF006A6E47 /* doListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = doListView.swift; sourceTree = "<group>"; };
+		55F2612325AC8BCA006A6E47 /* doRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = doRowView.swift; sourceTree = "<group>"; };
+		55F2612625AC8BD3006A6E47 /* Thing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thing.swift; sourceTree = "<group>"; };
+		55F2612925AC8BDD006A6E47 /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		55F2612C25AC8BF3006A6E47 /* ThingData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThingData.swift; sourceTree = "<group>"; };
+		55F2612F25AC8C53006A6E47 /* addDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addDataView.swift; sourceTree = "<group>"; };
+		55F2613625AC94E3006A6E47 /* 淺草籤.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "淺草籤.json"; sourceTree = "<group>"; };
+		55F2613925AC950E006A6E47 /* Luck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luck.swift; sourceTree = "<group>"; };
+		55F2613C25AC95DD006A6E47 /* myLuckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myLuckView.swift; sourceTree = "<group>"; };
 		57F7905525A47C0D0077BF1F /* finalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F7905825A47C0D0077BF1F /* finalProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalProjectApp.swift; sourceTree = "<group>"; };
 		57F7905A25A47C0D0077BF1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +69,9 @@
 		57F7906125A47C100077BF1F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		57F7906425A47C100077BF1F /* finalProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = finalProject.xcdatamodel; sourceTree = "<group>"; };
 		57F7906625A47C100077BF1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F7907125A4A7BE0077BF1F /* ImgPickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgPickView.swift; sourceTree = "<group>"; };
+		57F7907425A4AA690077BF1F /* uploadImgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uploadImgView.swift; sourceTree = "<group>"; };
+		57F7907925A4AF170077BF1F /* igResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = igResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55C4353625BA9651003936AF /* FacebookLogin in Frameworks */,
+				55F2610F25AA1F3D006A6E47 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,13 +106,36 @@
 		57F7905725A47C0D0077BF1F /* finalProject */ = {
 			isa = PBXGroup;
 			children = (
+				3B023E7625AEDDAB003319AE /* igTest.json */,
+				55F2613625AC94E3006A6E47 /* 淺草籤.json */,
+				55F2611825AC8AB0006A6E47 /* HanyiSentyCrayon.ttf */,
+				55F2611925AC8AB0006A6E47 /* HanyiSentyFingerPainting.ttf */,
+				55F2611A25AC8AB0006A6E47 /* Wildy-Sans.ttf */,
 				57F7905825A47C0D0077BF1F /* finalProjectApp.swift */,
 				57F7905A25A47C0D0077BF1F /* ContentView.swift */,
 				57F7905C25A47C100077BF1F /* Assets.xcassets */,
 				57F7906125A47C100077BF1F /* Persistence.swift */,
 				57F7906625A47C100077BF1F /* Info.plist */,
 				57F7906325A47C100077BF1F /* finalProject.xcdatamodeld */,
+				57F7907125A4A7BE0077BF1F /* ImgPickView.swift */,
+				57F7907425A4AA690077BF1F /* uploadImgView.swift */,
+				57F7907925A4AF170077BF1F /* igResponse.swift */,
 				57F7905E25A47C100077BF1F /* Preview Content */,
+				55F260FC25A9F146006A6E47 /* igView.swift */,
+				55F2610025A9F3EB006A6E47 /* igData.swift */,
+				55F2610425AA147D006A6E47 /* igPostView.swift */,
+				55F2611125AC86B6006A6E47 /* iconView.swift */,
+				55F2611525AC8A00006A6E47 /* nowTimeView.swift */,
+				55F2612F25AC8C53006A6E47 /* addDataView.swift */,
+				55F2612625AC8BD3006A6E47 /* Thing.swift */,
+				55F2612925AC8BDD006A6E47 /* Activity.swift */,
+				55F2612C25AC8BF3006A6E47 /* ThingData.swift */,
+				55F2612025AC8BBF006A6E47 /* doListView.swift */,
+				55F2612325AC8BCA006A6E47 /* doRowView.swift */,
+				55F2613925AC950E006A6E47 /* Luck.swift */,
+				55F2613C25AC95DD006A6E47 /* myLuckView.swift */,
+				55C4352925BA3F2B003936AF /* AppDelegate.swift */,
+				55C4353025BA8AEA003936AF /* fbLoginView.swift */,
 			);
 			path = finalProject;
 			sourceTree = "<group>";
@@ -91,6 +164,10 @@
 			dependencies = (
 			);
 			name = finalProject;
+			packageProductDependencies = (
+				55F2610E25AA1F3D006A6E47 /* SDWebImageSwiftUI */,
+				55C4353525BA9651003936AF /* FacebookLogin */,
+			);
 			productName = finalProject;
 			productReference = 57F7905525A47C0D0077BF1F /* finalProject.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +195,10 @@
 				Base,
 			);
 			mainGroup = 57F7904C25A47C0D0077BF1F;
+			packageReferences = (
+				55F2610D25AA1F3D006A6E47 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				55C4353425BA9651003936AF /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
 			productRefGroup = 57F7905625A47C0D0077BF1F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,8 +213,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F2611D25AC8AB0006A6E47 /* Wildy-Sans.ttf in Resources */,
+				3B023E7725AEDDAB003319AE /* igTest.json in Resources */,
+				55F2613725AC94E3006A6E47 /* 淺草籤.json in Resources */,
 				57F7906025A47C100077BF1F /* Preview Assets.xcassets in Resources */,
+				55F2611C25AC8AB0006A6E47 /* HanyiSentyFingerPainting.ttf in Resources */,
 				57F7905D25A47C100077BF1F /* Assets.xcassets in Resources */,
+				55F2611B25AC8AB0006A6E47 /* HanyiSentyCrayon.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,10 +230,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55C4352A25BA3F2B003936AF /* AppDelegate.swift in Sources */,
+				55F2612425AC8BCA006A6E47 /* doRowView.swift in Sources */,
+				55F2613D25AC95DD006A6E47 /* myLuckView.swift in Sources */,
+				55F2610525AA147D006A6E47 /* igPostView.swift in Sources */,
+				57F7907225A4A7BE0077BF1F /* ImgPickView.swift in Sources */,
 				57F7906225A47C100077BF1F /* Persistence.swift in Sources */,
+				55F2613025AC8C53006A6E47 /* addDataView.swift in Sources */,
+				55F260FD25A9F146006A6E47 /* igView.swift in Sources */,
 				57F7905B25A47C0D0077BF1F /* ContentView.swift in Sources */,
+				55F2613A25AC950E006A6E47 /* Luck.swift in Sources */,
+				55F2612A25AC8BDD006A6E47 /* Activity.swift in Sources */,
+				55C4353125BA8AEA003936AF /* fbLoginView.swift in Sources */,
 				57F7906525A47C100077BF1F /* finalProject.xcdatamodeld in Sources */,
+				55F2610125A9F3EB006A6E47 /* igData.swift in Sources */,
+				55F2612D25AC8BF3006A6E47 /* ThingData.swift in Sources */,
+				55F2611225AC86B6006A6E47 /* iconView.swift in Sources */,
+				57F7907A25A4AF170077BF1F /* igResponse.swift in Sources */,
 				57F7905925A47C0D0077BF1F /* finalProjectApp.swift in Sources */,
+				55F2611625AC8A00006A6E47 /* nowTimeView.swift in Sources */,
+				55F2612125AC8BBF006A6E47 /* doListView.swift in Sources */,
+				55F2612725AC8BD3006A6E47 /* Thing.swift in Sources */,
+				57F7907525A4AA690077BF1F /* uploadImgView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +438,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		55C4353425BA9651003936AF /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		55F2610D25AA1F3D006A6E47 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		55C4353525BA9651003936AF /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55C4353425BA9651003936AF /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		55F2610E25AA1F3D006A6E47 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55F2610D25AA1F3D006A6E47 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		57F7906325A47C100077BF1F /* finalProject.xcdatamodeld */ = {
